@@ -142,14 +142,4 @@ update();
 
 components.html(calculator_code, height=780)
 
-st.markdown("""
-<div style='background:white; padding:16px; border-radius:15px; text-align:center; margin-top:10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);'>
-<b style='color:#0f172a;'>✅ All 4 Features Working:</b><br>
-<span style='font-size:13px; color:#475569;'>
-⌨️ <b>Keyboard:</b> Type 25+25 and press Enter &nbsp;|&nbsp;
-🖥️ <b>Display:</b> Grey input + Big white output &nbsp;|&nbsp;
-🎨 <b>Colors:</b> White card / Purple sci / Orange op / Blue = / Dark navy display &nbsp;|&nbsp;
-👨‍👩‍👧‍👦 <b>Easy:</b> DEL, AC, DEG/RAD
-</span>
-</div>
-""", unsafe_allow_html=True)
+
