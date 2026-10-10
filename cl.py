@@ -1,6 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+st.title('Eman')
+
 st.set_page_config(page_title="Scientific Calculator", page_icon="🧮", layout="centered")
 
 # Hide Streamlit default UI
